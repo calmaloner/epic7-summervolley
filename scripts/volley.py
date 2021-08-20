@@ -57,9 +57,9 @@ while True:
         print('Volley detected    ', end='\r')
         if math.dist(volley,a) < 200:
             #Delay if distance between ball is short
-            time.sleep(0.04)
+            time.sleep(t1)
         #Delay between every click
-        time.sleep(0.15)
+        time.sleep(t2)
         pyautogui.click(volley)
     
     else:
